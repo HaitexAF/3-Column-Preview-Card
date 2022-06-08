@@ -8,14 +8,17 @@
     height: 100vh;
 }
 .box{
+    display: flex;
+    flex-wrap: wrap;
     width: 950px;
-    height: 500px;
+    height: 500px; 
     border: none;
     border-radius: 10px;
 }
 
 
 .block{
+    width: 230px;
     float:left;
     width: 33.3%;   
 }
@@ -52,16 +55,17 @@ p{
     width: 70%;
 }
 h4{
-    display: flex;
-    justify-content: center;
+    padding: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
     text-align: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: white;
     margin-left: 40px;
-    margin-top: 120px;
+    margin-top: 40%;
     font-family: 'Lexend Deca', sans-serif;
     border: 3px solid white;
-    height: 36px;
+    /* height: 36px; */
     width: 120px;
     border-radius: 20px;
     cursor: pointer;
