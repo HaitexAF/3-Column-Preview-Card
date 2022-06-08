@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lexend+Deca&display=swap');
+.container{
+    background-color: hsl(0, 0%, 61%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    width: 950px;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.block{
+    float:left;
+    width: 33.3%;   
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    border-radius: 10px 0 0 10px ;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    border-radius: 0 10px 10px 0;
+}
+.icon{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+h3{
+    color: hsl(0, 0%, 95% , 0.80);
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 40px;
+    width: 70%;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 120px;
+    font-family: 'Lexend Deca', sans-serif;
+    border: 3px solid white;
+    height: 36px;
+    width: 120px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;   
+}
+.text1{
+    color: hsl(31, 77%, 52%);
+}
+.text2{
+    color: hsl(184, 100%, 22%);
+}
+.text3{
+    color: hsl(179, 100%, 13%);
+}
+.text1:hover{
+    color:hsla(0, 0%, 100%, 0.85);
+    background-color:hsl(31, 77%, 52%);
+}
+.text2:hover{
+    color:hsla(0, 0%, 100%, 0.85);
+    background-color: hsl(184, 100%, 22%);
+}
+.text3:hover{
+    color:hsla(0, 0%, 100%, 0.85);
+    background-color: hsl(179, 100%, 13%);
+}
